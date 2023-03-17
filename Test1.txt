@@ -1,0 +1,119 @@
+1)Java components are JRE,JDK AND JVM .
+JRE = java runtime environment,
+JDK = java development kit.
+JVM = java vertual machine,
+  
+inside the jdk 
+jdk = jre + development Tools like (compiler,debuger, and dava docs Etc...)
+        
+inside the jre it has jvm + some java libreries
+		
+JVM tasks:
+loads the byte code
+varifies the byte code
+and finelly it will exicute the code.
+=======================================================================================================
+
+2)j ava features
+1.Object oriented programmimg.
+2.platform indipendent
+3.robust
+4.multy threding
+5.is has JVM
+
+=======================================================================================================
+3)Constructor
+#constructor is special type of meyhod, which has sam name as class name
+which is used to initialization on instance variables
+   
+type of constructors:
+1.default constructors
+-- java will genarate it   
+2.constom constructors
+-- developer will decler it 
+and in constom constructor we have arguments to pass it , caled as argument constructors..
+		  
+=======================================================================================================		  
+4)variavles - containers which is used to store the data or value
+
+4 typs --
+->  local variables or globle variables
+->	static variables 
+->	non-static variables or instance variables 
+->  paramitarized variables 
+=======================================================================================================
+	
+5) java is not puer object oriented programmimg language because it will supports primitive datatyps.
+
+
+===========================================================================================================
+6)
+
+7)OOPS (object oriented programmimng) oops basicaly stands for object oriented concepts,
+to use the the properties of an objects by making use of some oop consepts as shown in below 
+1.polimorphism
+2.inheritance
+3.encapsulation
+4.abstraction
+===========================================================================================================
+8)class CountNo{
+
+   publc static void main (String  [] args ){
+
+      String str =  "sanket";
+	  
+	  char ch = ' ';
+	  
+	  for(int i=1; i<=str.)
+	  
+	  
+   }	  
+}
+
+==========================================================================================================
+9)
+
+==========================================================================================================
+10)
+
+==========================================================================================================
+11)Interface is a class which is use to connect two class 
+and it will act as a bridge between those classes
+
+Interface class is a 100% abstarct class 
+it has abstarct methods
+we can extract properties of any class by taking the rerence of Interface class by implimenting the class
+
+in interface class multiple inheritance is supported.
+==========================================================================================================
+12)Exeption it is an event, which will happens in any step of the code dyring the exicution the code 
+and the exeption is hadelled by 2 ways ===
+1.compiler will handle 
+2.develpoer will handle
+    by using try and catch metbod
+========================================================================================================
+
+13)Access specifiers are are also called access modifiers and these are used with class properties like variables,
+constoctors and methods ..
+
+typs:
+public,protected,private,default
+========================================================================================================
+14)Abstraction :
+it is not complete abstarction because we can write costom or dummy methods in it 
+and it will not supports multiple inheritance.
+				  
+				  
+Interface : in interface it is complete abstraction process and it will not supports constom methods 
+in here we can do multiple inheritance
+========================================================================================================
+15)class AddNum{
+
+ public static void main(String [] args){
+ 
+   
+ 
+ }
+
+
+}
