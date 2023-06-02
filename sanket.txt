@@ -1,0 +1,102 @@
+JAVA TEST               (sanket)
+.............................................
+
+
+
+Q1] 
+    1) public static void main(String args[])
+	
+	public* : is access specifier used to used to set the limitation on the properties like variable methods etc..
+	
+	*Types of access specifiers in Java....
+	public - use properties in any package
+	private - use properties in same package and used in child class of same packege
+	protected - use properties in same clss same packege
+	default - this is default access specifier 
+	
+	static* is key word and non access specifier used to create the copy of the ref in java memory
+	
+	Ex: static has only one copy
+	    non-static has meny copy depends on object creation
+		
+	void* is the return type and it is used in methods, ew use void if the method is not return any dataType..
+	
+	main* is the method which is created by jvm only..
+	
+	(String args[])* here we use String args[] is going to return the string form.. 
+	
+	2) Class and object
+	
+	Class* is logical entity and it is the blue print of an object and the class will deside that how the object going to looks
+	
+	object* is real world entity and object contains states and behaviours
+											states* are the datas
+											behaviours* are the functions / methods 
+	3)
+	JDK 
+		-java development kit 
+		-advanced software development tool
+		-it is platform indipendent
+		-by this we can run the java code in any OS
+		-JDK contains JRE and Development tools loke Compiler,Debuger,Java Docs etc...
+	
+	JRE
+	    -Java Run time environment 
+		-JRE will provide the run time environment to the JVM
+		-JRE is not physicaly avilable 
+		-inside the JRE it has JVM and java libraries
+	
+	JVM
+	     -java vertual machine 
+	     -it is platform dipendent 
+	     -to run the java code it is nesesery
+	    
+		workin of JVM
+		-loads the byte code
+		-verifies the byte code
+		-exicute the byte code
+		
+========================================================================================================================================================
+Q2]
+	Contructor* 
+	-is used to initialization of instunce variables
+	-constructor has same name as class name
+	-constructors has no retuern type
+	-used in constructor chaining
+	-to create the instunce we of the the class we need constructor with new keyword
+	
+	constructor types*
+	-pre difinds 
+	 jvm will create one defauld construcor (no argument constructor)
+	 
+	-user defind
+	 user will create the constructor (argument constructor)
+========================================================================================================================================================
+Q3]
+	this keyword is used in access the properties in the same class
+	and supper key word is used for access properties in child class
+	
+========================================================================================================================================================
+Q4]
+	mean method is static ew are goin to ron the code from only one startup or only one method 
+	
+	because static method no need create the object
+	
+	so we need only one method to run the code due to this condition the jvm will autometicaly create main method by default
+	
+	methods types 
+	-- static method and non static method
+	
+========================================================================================================================================================
+Q6]
+	-java class loading is present in JVM 
+	-in the run tyme is will loads the clas by the class loader
+========================================================================================================================================================
+Q7]
+	-if we create the private constructor it will not able to ues in another class and object creaton is not posible
+	-we can over load the constructor but not override
+	-overload is possible ew do this like methods
+	because the constructors also special methods which has same class name only and by passing the arguments in the parameters in the constructor by this prossese we can overload the the constructors
+========================================================================================================================================================
+Q8]
+	using instance variables inside the static method is not posible
